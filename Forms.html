@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <h3>Student Form</h3>
+    <form action="backend.php">
+
+        <!-- THIS BELOW IS SYNTAX IS FOR TEXT -->
+        <label for="name">Name:</label>
+            <input type="text" name="Myname" id="name">
+            <br>
+
+        <div>
+            <br>
+            <label for="rollno.">RollNo.</label>  
+             <input type="text" name="MyRollno." id="rollno.">
+        </div>
+        <br>
+
+        <!-- FOR DATE OF BIRTH CALENDER USE THE BELOW SYNTAX  -->
+        <div>
+            Date Of Birth: <input type="date" name="My DOB">
+        </div>
+        <br>
+
+        <!-- fOR CHECK BOX REFER BELOW SYNTAX -->
+        <div>
+            Are You Eligible To Vote?: <input type="checkbox" checked>
+        </div>
+        <br>
+
+        <!-- THIS BELOW SYNTAX IS FOR NUMBER INPUT AND ACCEPTS ONLY (e) ALPHABET TO USE FOR 10 TO THE POWER -->
+        <div>
+            Bonus: <input type="number" name="MyBonus">
+        </div>
+        <br>
+
+        <!-- SYNTAX FOR SELECTING ONLY ONE RADIO BOX BY KEEPING (name) ATTRIBUTE THHE SAME THAT IS MY GENDER -->
+        <div>
+            Gender : Male<input type="radio" name="mygender"> 
+            Female<input type="radio" name="mygender">
+            Others<input type="radio" name="mygender">
+        </div>
+        <br>
+
+        <!-- IF YOU WANT TO PROVIDE TEXTAREA INPUT  FOR COMMENTS FOLLOW SYNTAX BELOW -->
+        <div>
+            Write About Yourself:<br>
+             <textarea name="Mytext" cols="30" rows="10"></textarea>
+        </div>
+        <br>
+
+        <!-- TO GIVE OPTIONS SO THAT USERR CAN SELECT FOLLOW SYNTAX BELOW  -->
+        <div>
+            <label for="car">Car</label>
+            <select name="Mycar" id="car">
+                <option value="Verna">Verna</option>
+                <option value="Swift" >Swift</option>
+                <option value="Hyundai">Hyundai</option>
+            </select>
+
+        </div>
+        <br>
+
+            <input type="submit" value="Submit Now">
+            <input type="reset" value="Reset Now">
+    
+
+    </form>
+
+    
+</body>
+</html>
