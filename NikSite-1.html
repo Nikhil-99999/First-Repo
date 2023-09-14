@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nick's Nature </title>
+    <style>
+
+        body{
+  
+            background-color: #f9f9f9;
+            background-image: url(https://iso.500px.com/wp-content/uploads/2016/03/stock-photo-142984111.jpg);
+            
+        }
+
+        .navbar{
+
+            overflow: auto;
+            /* border: 2px solid rgb(240, 43, 43); */
+            border-radius: 30px;
+            background-color: #000000;
+            margin: 0px;
+            
+        }
+
+        .navbar li {
+
+            list-style: none;
+            float: left;
+            margin: 0px;
+            padding:0px 4px 9px 35px;
+            color: rgb(255, 255, 255);
+            cursor: pointer;
+            /* text-decoration: none; */
+        }
+
+        .navbar li a {
+            text-decoration: none;
+            color: #f9f9f9;
+        }
+
+        .navbar li a:hover{
+
+            color: chocolate;
+            
+
+        }
+
+        .text input{
+        
+        border-radius: 15px;
+    }
+
+    .text1 select{
+
+        border-radius: 15px;
+    }
+
+    .text2 textarea{
+
+        border-radius: 15px;
+        border-color:  solid black;
+        border-style: dashed;
+        border-width: 2px;
+    }
+
+    .text3 input{
+
+        border-radius: 15px;
+        padding: 1px 9px;
+        margin: 1px 2px;
+
+    }
+
+    .text3 input:hover{
+
+        background-color: #fc4646;
+
+}
+
+    .container{
+
+        margin: 18px;
+    }
+
+    .album{
+        /* border: 2px solid white; */
+        display: inline;
+        position: absolute;
+        top: 115px;
+        right: 205px;
+        padding: 10px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-size: x-large;
+
+    }
+    </style>
+</head>
+<body>
+
+        <header>
+        <nav class="navbar">
+            <ul>
+                
+                <li><a href="#">Home</a></li>
+                <li><a href="Navbar.html" target="_blank">About</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="https://unsplash.com/explore" target="_blank">Albums</a></li>
+            </ul>  
+        </nav>
+    </header>
+
+    <form action="backend.sql" class="f1">
+
+        <div class="container">
+
+            <div class="text">
+                <label for="name">Name : </label>
+                <input type="text" id="name" placeholder="Enter Name">
+            </div>
+            <br>
+
+            <div class="text">
+                <label for="Order ID">Order ID :</label>
+                <input type="number" id="Order ID" placeholder="Enter Order ID">
+            </div>
+            <br>
+
+            <div class="text">
+                <label for="Delivered on">Delivered On :</label>
+                <input type="date" id="Delivered on">
+            </div>
+            <br>
+
+            <div class="item4">
+                <label for="Payment type">Payment Type :</label>
+                 COD<input type="radio" name="payment" id="Paymemt type">
+                 UPI<input type="radio" name="payment" id="Payment type">
+                 Account<input type="radio" name="payment" id="Payment type">
+            </div>
+            <br>
+
+            <div class="text1">
+                <label for="return">Return Type:</label>
+                <select name="pick" id="return">
+                    <option value="Exchange">Exchange</option>
+                    <option value="Refund">Refund</option>
+                </select>
+            </div>
+            <br>
+
+            <div class="text">
+                <label for="accno">Account number : </label>
+                <input type="text" id="accno" placeholder="Enter Your Account No.">
+            </div>
+            <br>
+
+           <div class="text2">
+            <label for="reason">Reason :</label>  <br>
+            <textarea name="reasons" id="reason" cols="35" rows="10"></textarea>
+           </div>
+           <br>
+
+           <div class="text3">
+            <input type="submit" value="Submit">
+            <input type="reset"  value="Reset">
+           </div>
+        </div>
+    </form>
+
+    <div class="album">
+        !Hurry Up Order Your Favourite Albums Now
+    </div>
+</body>
+</html>
