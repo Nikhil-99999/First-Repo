@@ -13,13 +13,10 @@
         } */
 
         body{
-            background-color: rgba(255, 255, 255, 0.95);
+            background-color: rgb(255 255 255 / 0.95%);
         }
         
-        .navbar{
-
-            /* border: 1px solid black; */
-        }
+       
 
         .navbar li{
             list-style: none;
@@ -27,6 +24,7 @@
 
         .navbar i{
             float: right;
+            cursor: pointer;
         }
         
         .navbar li a {
@@ -62,12 +60,12 @@
 
     
         .o{
-            color: #ff7b00ed;
+            color: #ff0043;
         }
 
         
         .o2{
-            color: #fff200;
+            color: #ed8213;
         }
 
         
@@ -77,11 +75,11 @@
 
         
         .l{
-            color: #9000ff;
+            color: #0e913c;
         }
 
         .e{
-            color: #ff4cba;
+            color: #ff0043;
         }
 
         h1{
@@ -102,7 +100,7 @@
 
         }
 
-        .icon1 img{
+        .icon1 a img{
             width: 50px;
             height: 50px;
             border-radius: 50px;
@@ -110,20 +108,21 @@
             background-color: #6d5858;
             cursor: pointer;
             display: inline-block;
-            position:relative;
+            position:absolute;
             left: 100px;
         }
 
-        .icon1 img:hover{
+        .icon1 a img:hover{
             width: 50px;
             height: 50px;
             border-radius: 10px;
             border: 1px solid black;
             background-color: #ff2525;
+            text-decoration: none;
            
         }
 
-        .icon2 img{
+        .icon2 a img{
             width: 50px;
             height: 50px;
             border-radius: 50px;
@@ -131,12 +130,12 @@
             background-color: #6d5858;
             cursor: pointer;
             display: inline-block;
-            position:relative;
-            left: 208px;
-            bottom: 54px;
+            position:absolute;
+            left: 211px;
+            bottom: 47px;
         }
 
-        .icon2 img:hover{
+        .icon2 a img:hover{
             width: 50px;
             height: 50px;
             border-radius: 10px;
@@ -145,7 +144,7 @@
            
         }
 
-        .icon3 img{
+        .icon3 a img{
             width: 50px;
             height: 50px;
             border-radius: 50px;
@@ -155,10 +154,10 @@
             display: inline-block;
             position:relative;
             left: 320px;
-            bottom: 109px;
+            bottom: 36px;
         }
 
-        .icon3 img:hover{
+        .icon3 a img:hover{
             width: 50px;
             height: 50px;
             border-radius: 10px;
@@ -167,7 +166,7 @@
            
         }
 
-        .icon4 img{
+        .icon4 a img{
             width: 50px;
             height: 50px;
             border-radius: 50px;
@@ -177,10 +176,10 @@
             display: inline-block;
             position:relative;
             left: 435px;
-            bottom: 165px;
+            bottom: 91px;
         }
 
-        .icon4 img:hover{
+        .icon4 a img:hover{
             width: 50px;
             height: 50px;
             border-radius: 10px;
@@ -189,39 +188,40 @@
            
         }
 
-        .customise{
+        .customise a{
             position: fixed;
             bottom: 10px;
             right: 10px;
             border: 1px solid black;
             border-radius: 15px;
             cursor: pointer;
-            color: white;
-            background-color: #020202;
+            color: rgb(255, 255, 255);
+            background-color: #7a7777;
+            text-decoration: none;
         }
 
         #YouTube{
             position: relative;
-            left: 41px;
-            bottom: -19px;
+            left: 95px;
+            bottom: -58px;
         }
 
         #JioCinema{
             position: relative;
-            left: 144px;
-            bottom: 35px;
+            left: 203px;
+            bottom: -40px;
         }
 
         #SnapChat{
             position: relative;
             left: 261px;
-            bottom: 92px;
+            bottom: 16px;
         }
 
         #Swiggy{
             position: relative;
             left: 383px;
-            bottom: 148px;
+            bottom: 73px;
         }
          
 
@@ -233,7 +233,7 @@
 
         <div class="navbar">
             <ul>
-                <i class="fa fa-th" aria-hidden="true">&nbsp; &nbsp; &nbsp;</i>
+              <a href="https://fontawesome.com/v4/icon/th"><i class="fa fa-th" aria-hidden="true">&nbsp; &nbsp; &nbsp;</i></a>  <!--I Have put this GRID ICON in Anchor Tag To See ReDirecting Changes-->
                 <li><a href="https://pixabay.com/" target="_blank">Images</a></li>  
                 <li><a href="https://www.google.com/gmail/about/" target="_blank">Gmail</a></li>   
             </ul>
@@ -242,6 +242,7 @@
     </header>
 
         <div class="container">
+
             <h1>
                 <span class="G1">G</span><span class="o">o</span><span class="o2">o</span><span class="g2">g</span><span class="l">l</span><span class="e">e</span>
             </h1>
@@ -249,32 +250,35 @@
             <input type="search" name="search-bar" id="search-icon" placeholder=" &#128269; &nbsp;Serach Google or Type a URL">
 
 
+            <!--I Have Put these Icon 1,Icon 2,Icon 3 and Icon 4  in Anchor Tag To Give Click Event Functionality-->
+
             <div class="icon1">
-                <img src="https://www.iconpacks.net/icons/2/free-youtube-logo-icon-2431-thumb.png" alt="Error 404" title="Youtube">
+            <a href="https://www.youtube.com/"><img src="https://www.iconpacks.net/icons/2/free-youtube-logo-icon-2431-thumb.png" alt="Error 404" title="Youtube"></a> 
                 <span id="YouTube">YouTube</span>
             </div>
 
             <div class="icon2">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/1/14/Jiocinema.png" alt="Error 404" title="JioCinema">
+               <a href="https://www.jiocinema.com/"> <img src="https://upload.wikimedia.org/wikipedia/commons/1/14/Jiocinema.png" alt="Error 404" title="JioCinema"> </a>
                 <span id="JioCinema">JioCinema</span>
             </div>
 
             <div class="icon3">
-                <img src="https://cdn.icon-icons.com/icons2/2699/PNG/512/snapchat_logo_icon_170723.png" alt="Error 404" title="SnapChat">
+                <a href="https://accounts.snapchat.com/accounts/v2/login"><img src="https://cdn.icon-icons.com/icons2/2699/PNG/512/snapchat_logo_icon_170723.png" alt="Error 404" title="SnapChat"></a>
                 <span id="SnapChat">SnapChat</span>
             </div>
 
             <div class="icon4">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/1/13/Swiggy_logo.png" alt="Error 404" title="Swiggy">
+                <a href="https://www.swiggy.com/"><img src="https://upload.wikimedia.org/wikipedia/commons/1/13/Swiggy_logo.png" alt="Error 404" title="Swiggy"></a>
                 <span id="Swiggy">Swiggy</span>
             </div>
 
         </div>
 
-        <div class="customise">
-           <span> &#x270E; customise this page</span> 
-        </div>
+        <!-- I have Put this customize in Anchor tag To ReDirect To Customize page -->
 
+        <div class="customise">
+            <a href="https://blog.google/products/chrome/new-ways-to-customize-chrome-on-your-desktop/"> &#x270E; customise this page </a>
+         </div>
     
 </body>
 </html>
