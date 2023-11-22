@@ -1,0 +1,28 @@
+*{margin: 0;padding: 0;box-sizing: border-box;}
+
+#searchbar{position:absolute;left: 180px;top: 15px;width: 420px;height: 30px;}
+
+#search{position:absolute;left: 602px;top: 15px;color: blue;background-color: #fff;height: 30px;padding: 3px;border-radius: 2px;width: 70px;}
+
+#search:hover{background-color:rgb(240, 240, 255)}
+
+#login{position:absolute;left: 1100px;top: 15px;color: blue;background-color: #fff;height: 30px;padding: 3px;border-radius: 2px;width: 70px;}
+
+#login:hover{background-color:rgb(240, 240, 255)}
+
+#signup{position:absolute;left: 1180px;top: 15px;color: blue;background-color: #fff;height: 30px; padding: 3px;border-radius: 2px;width: 70px;}
+
+#signup:hover{ background-color:rgb(240, 240, 255);}
+
+.content-1{width: 100%; height: 300px; position:relative;}
+.content-1 li{list-style:none;}
+.content-1 li a {text-decoration:none; color:whitesmoke;}
+.content-1 li a:hover {text-decoration:underline;}
+.fc1{position:absolute;left:50px}
+.fc2{position:absolute;left:250px}
+.fc3{position:absolute;left:450px}
+.fc4{position:absolute;left:600px}
+.vl{height:200px;width:0px;border:0.2px Solid white; position:absolute; left:750px; top:28px;}
+.fc5{position:absolute;left:780px}
+.fc5 li{color:white;}
+.hr{height:0px;width:100%;border:0.2px Solid rgb(209, 207, 207); position:absolute; left:0px; top:250px;}

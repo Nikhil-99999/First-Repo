@@ -1,5 +1,5 @@
 body{
-    background-color:  background-color: rgb(169 169 169 / 47%);
+    background-color: rgba(238, 238, 238, 0.2)
 }
 
 .navbar li{
@@ -16,8 +16,8 @@ body{
     text-decoration: none;
     float: right;
     padding-right:15px;
-    /* font-weight: bold; */
-    color: black;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
 }
 
 .navbar li a:hover{
@@ -192,22 +192,26 @@ input{
     position: relative;
     left: 95px;
     bottom: -58px;
+    /* color: #fff; */
 }
 
 #JioCinema{
     position: relative;
     left: 203px;
     bottom: -40px;
+    /* color: #fff; */
 }
 
 #SnapChat{
     position: relative;
     left: 261px;
     bottom: 16px;
+    /* color: #fff; */
 }
 
 #Swiggy{
     position: relative;
     left: 383px;
     bottom: 73px;
+    /* color: #fff; */
 }
