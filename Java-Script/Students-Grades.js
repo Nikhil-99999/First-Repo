@@ -19,6 +19,6 @@ else if(percentage>=35 && percentage<50)
 }
 else
 {
-    console.log("You're FAIL ")
+    console.log("You're FAIL ");
 }
 
