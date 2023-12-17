@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img{
+    height: 110px;
+    width: 200px;
+    display: block;
+    margin: auto;
+}
+
+.container{
+    background-color: #f2f2f2;
+    height: 510px;
+}
+
+.inner-container{
+    height: 280px;
+    width: 380px;
+    /* border: 1px solid black; */
+    background-color: #fff;
+    position: absolute;
+    top: 100px;
+    left: 435px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px rgb(203, 195, 195);
+}
+
+p{
+    font-size:large;
+    font-family: "Trirong", serif;
+    padding-left: 115px;
+    
+}
+
+#username1{
+    width: 90%;
+    padding: 15px;
+    margin-left: 20px;
+    padding-left: 20px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border-color: #f2f2f2;
+
+}
+
+#pw{
+    width: 90%;
+    padding: 15px;
+    margin-left: 20px;
+    margin-top: 10px;
+    padding-left: 20px;
+    border-radius: 5px;
+    border-color: #f2f2f2;
+}
+
+#login{
+    width: 90%;
+    padding: 15px;
+    margin-left: 20px;
+    margin-top: 10px;
+    padding-left: 20px;
+    background-color: #1877f2;;
+    color: #fff;
+    font-weight: bolder;
+    font-size: large;
+    border-radius: 5px;
+    border-color: #f2f2f2;
+}
+
+#login:hover{
+    cursor: pointer;
+    background-color:#2e89ff;
+}
+
+.anchortags{
+    margin-left: 55px;
+    margin-top: 10px;
+}
+
+.anchortags a{
+    text-decoration: none;
+}
+
+.anchortags a:hover{
+    text-decoration: underline;
+}
+
+
+.footer ul li a{text-decoration: none;}
+.footer ul li a{color: black;}
+.footer ul li a:hover{text-decoration: underline;}
+.footer ul li{display: block;}
+
+.footer{
+    position: absolute;
+    bottom: -110px;
+    left: 80px;
+}
+
+#lang-btn{
+    cursor: pointer;
+}
+
+.footer2 ul li a{text-decoration: none;}
+.footer2 ul li a{color: black;}
+.footer2 ul li a:hover{text-decoration: underline;}
+.footer2 ul li{display: block;}
+
+.footer2{
+    position: absolute;
+    bottom: -87px;
+    left: 250px;
+}
+
+
+.footer3 ul li a{text-decoration: none;}
+.footer3 ul li a{color: black;}
+.footer3 ul li a:hover{text-decoration: underline;}
+.footer3 ul li{display: block;}
+
+.footer3{
+    position: absolute;
+    bottom: -87px;
+    left: 380px;
+}
+
+.footer3{
+    width: 800px;
+}
+
+.copyright{
+position: absolute;
+bottom: -130px;
+left: 480px;
+}
