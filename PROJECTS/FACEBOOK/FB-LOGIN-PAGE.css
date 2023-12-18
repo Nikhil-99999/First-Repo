@@ -3,19 +3,19 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+/* FACEBOOK IMAGE RELATED CHANGES BELOW HERE  */
 img{
     height: 110px;
     width: 200px;
     display: block;
     margin: auto;
 }
-
+/* CREAM BGC FOR CONTAINER CHANGES BELOW HERE  */
 .container{
     background-color: #f2f2f2;
     height: 510px;
 }
-
+/* LOG IN TO FACEBOOK AND INPUT RELATED CHANGES BELOW HERE  */
 .inner-container{
     height: 280px;
     width: 380px;
@@ -25,78 +25,80 @@ img{
     top: 100px;
     left: 435px;
     border-radius: 15px;
-    box-shadow: 5px 5px 10px rgb(203, 195, 195);
+    box-shadow: 5px 5px 15px rgb(203, 195, 195);
 }
-
+/* LOG IN TO FB SENTENCE RELATED CHANGES BELOW HERE */
 p{
     font-size:large;
-    font-family: "Trirong", serif;
-    padding-left: 115px;
-    
+    font-family: Snell Roundhand, cursive;
+    padding-left: 117px;
 }
-
+ /* FONT RELATED CHANGES BELOW HERE */
+.font
+{
+    font-family: Snell Roundhand, cursive;
+}
+/* USERNAME INPUT RELATED CHANGES BELOW HERE */
 #username1{
     width: 90%;
     padding: 15px;
     margin-left: 20px;
     padding-left: 20px;
     margin-top: 10px;
-    border-radius: 5px;
-    border-color: #f2f2f2;
-
+    border-radius: 8px;
+    border-color: #f2f2f2; 
 }
-
+/* PASSWORD INPUT RELATED CHANGES BELOW HERE */
 #pw{
     width: 90%;
     padding: 15px;
     margin-left: 20px;
     margin-top: 10px;
     padding-left: 20px;
-    border-radius: 5px;
+    border-radius: 8px;
     border-color: #f2f2f2;
 }
-
+/* LOGIN BUTTON RELATED CHANGES BELOW HERE */
 #login{
     width: 90%;
     padding: 15px;
     margin-left: 20px;
     margin-top: 10px;
     padding-left: 20px;
-    background-color: #1877f2;;
+    background-color:#2e89ff;
     color: #fff;
     font-weight: bolder;
     font-size: large;
-    border-radius: 5px;
+    border-radius: 8px;
     border-color: #f2f2f2;
-}
-
+}     
+/* LOGIN BUTTON HOVERING RELATED CHANGES BELOW HERE */
 #login:hover{
     cursor: pointer;
-    background-color:#2e89ff;
+    background-color:#1877f2; 
 }
-
+/* FORGOT PASSWORD OR SIGN UP TO FB RELATED CHANGES BELOW HERE */
 .anchortags{
-    margin-left: 55px;
+    margin-left: 35px;
     margin-top: 10px;
 }
-
+/* FORGOT PASSWORD OR SIGN UP TO FB RELATED CHANGES BELOW HERE */
 .anchortags a{
     text-decoration: none;
+    color: #2e89ff;
 }
-
+/* FORGOT PASSWORD OR SIGN UP TO FB RELATED CHANGES BELOW HERE */
 .anchortags a:hover{
     text-decoration: underline;
 }
-
-
+ /* FOOTER RELATED CHANGES BELOW HERE  */
 .footer ul li a{text-decoration: none;}
 .footer ul li a{color: black;}
 .footer ul li a:hover{text-decoration: underline;}
 .footer ul li{display: block;}
-
 .footer{
     position: absolute;
-    bottom: -110px;
+    bottom: -120px;
     left: 80px;
 }
 
@@ -108,31 +110,24 @@ p{
 .footer2 ul li a{color: black;}
 .footer2 ul li a:hover{text-decoration: underline;}
 .footer2 ul li{display: block;}
-
 .footer2{
     position: absolute;
-    bottom: -87px;
-    left: 250px;
+    bottom: -122px;
+    left: 230px;
 }
-
 
 .footer3 ul li a{text-decoration: none;}
 .footer3 ul li a{color: black;}
 .footer3 ul li a:hover{text-decoration: underline;}
 .footer3 ul li{display: block;}
-
 .footer3{
     position: absolute;
-    bottom: -87px;
-    left: 380px;
+    bottom: -122px;
+    left: 370px;
 }
-
-.footer3{
-    width: 800px;
-}
-
+/* META COPYRIGHT C 2023 RELATED CHANGES HERE  */
 .copyright{
 position: absolute;
-bottom: -130px;
+bottom: -140px;
 left: 480px;
 }
